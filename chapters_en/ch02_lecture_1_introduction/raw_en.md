@@ -80,8 +80,10 @@ For any rational numbers $p < q \in \mathbb{Q}$, setting $r = (p + q) / 2$ yield
 Intuitively, dense rational numbers feel like there are "far more" of them than integers. But is that true?
 
 ![](images/_page_10_Figure_4.jpeg)
-
-In this diagram, the horizontal axis represents non-zero denominator integers, and the vertical axis represents positive numerator integers, mapping all rational numbers onto lattice points.
+*Diagram Translation (Mapping Rational Numbers to Lattice Points / 可算性の証明):*
+- **Vertical Axis**: Numerator (positive integers) / 分子 (正の整数)
+- **Horizontal Axis**: Denominator (non-zero integers) / 分分 (0 以外の整数)
+- **Trace Pattern**: Starting at $1/1$ (START), trace zigzag path. Count irreducible fractions ($\circ$) to prove rational numbers are **countable** (可算).
 
 Starting from $1/1$ marked START, we trace a zigzag path along the lattice points. We count only simplified fractions ($\circ$) and skip non-reduced ones ($\times$). This demonstrates that we can "count" all unique rational numbers. Being able to "count" them means establishing a one-to-one correspondence with natural numbers. Although both the set of natural numbers and the set of rational numbers are infinite sets with infinitely many elements, they have the **same size**. This surprising fact counter-intuitively reveals the magic of infinity.
 
@@ -134,6 +136,13 @@ $$b = 0. b_1 b_2 b_3 \dots b_n \dots, \quad b_i = \sim a_{ii}$$
   Plotting a complex number $z = x + iy$ on a plane where the horizontal axis represents real values and the vertical axis represents imaginary values.
 
 ![](images/_page_12_Figure_23.jpeg)
+*Diagram Translation (The Complex Plane / 複素平面):*
+- **Left Diagram**: Addition of complex numbers as vectors ($z_1 + z_2$).
+  - **Horizontal Axis**: Real numbers (実数)
+  - **Vertical Axis**: Imaginary numbers (虚数)
+- **Right Diagram**: Multiplication by unit complex number $z_0 = \cos\phi + i\sin\phi$ representing 2D rotation.
+  - **Horizontal Axis**: Real numbers (実数)
+  - **Vertical Axis**: Imaginary numbers (虚数)
 
   The left diagram shows the sum of complex numbers $z_1 = x_1 + iy_1$ and $z_2 = x_2 + iy_2$:
 
@@ -155,6 +164,10 @@ z_0 z &= r \{ (\cos \theta \cos \phi - \sin \theta \sin \phi) + i (\sin \theta \
 - **Multiplication of Negative Numbers Revisited**:
 
 ![](images/_page_13_Figure_29.jpeg)
+*Diagram Translation (Multiplication by $i$ as $90^\circ$ Rotation / 負数の積):*
+- **Horizontal Axis**: Real axis (実数軸)
+- **Vertical Axis**: Imaginary axis (虚数軸)
+- Repeated multiplication by $i$ rotates points by $\pi/2$ ($90^\circ$) counterclockwise: $1 \to i \to -1 \to -i \to 1$.
 
   Multiplying the real unit $1$ by the imaginary unit $i$ gives $i \times 1 = i$. Multiplying repeatedly by $i$ gives:
 
@@ -190,7 +203,6 @@ On the other hand, non-intuitive facts like the equal cardinality of rational nu
 | A | $\alpha$ | alpha | I | $\iota$ | iota | P | $\rho$ | rho |
 | B | $\beta$ | beta | K | $\kappa$ | kappa | $\Sigma$ | $\sigma$ | sigma |
 | $\Gamma$ | $\gamma$ | gamma | $\Lambda$ | $\lambda$ | lambda | T | $\tau$ | tau |
-| $\Delta$ | $\delta$ | delta | M | $\mu$ | mu | $\Upsilon$ | $\upsilon$ | upsilon |
 | E | $\varepsilon, \epsilon$ | epsilon | N | $\nu$ | nu | $\Phi$ | $\phi, \varphi$ | phi |
 | Z | $\zeta$ | zeta | $\Xi$ | $\xi$ | xi | X | $\chi$ | chi |
 | H | $\eta$ | eta | O | $o$ | omicron | $\Psi$ | $\psi$ | psi |

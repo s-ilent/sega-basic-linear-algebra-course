@@ -84,6 +84,11 @@ In general, for $n$ variables:
 - If $\text{rank} < n$, the solution space has degrees of freedom equal to $n - \text{rank}$.
 
 ![](images/_page_55_Picture_29.jpeg)
+*Diagram Translation (Geometric Intersections of Three Planes in 3D / 3平面の交わり):*
+- **(a) Single point intersection** (1点での交わり): Unique solution, $\text{rank} = 3$.
+- **(b) Intersection along a line** (1直線での交わり): Indeterminate solution with 1 degree of freedom, $\text{rank} = 2$.
+- **(c) No common intersection** (共通部分を持たない): Inconsistent system (no solution), $\text{rank} = 2, a \neq 0$.
+- **(d) Three coincident planes** (3平面が一致): Indeterminate solution with 2 degrees of freedom, $\text{rank} = 1$.
 
 Geometric interpretation in 3D:
 - (a) Three planes intersect at a single point ($\text{rank} = 3$, unique solution).

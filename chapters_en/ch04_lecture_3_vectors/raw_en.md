@@ -19,6 +19,9 @@ Moving beyond geometric vectors to general vector spaces, we write vectors in bo
 For geometric vectors, **addition** and **scalar multiplication** are defined:
 
 ![](images/_page_34_Picture_29.jpeg)
+*Diagram Translation (Vector Addition & Scalar Multiplication / 加法とスカラー積):*
+- **Addition (加法)**: $\mathbf{a} + \mathbf{b}$
+- **Scalar Multiplication (スカラー積)**: $k\mathbf{a}$ ($k > 0$, $k < 0$, $k = 0$)
 
 - **Addition**: Translate vector $\mathbf{b}$ so its start point coincides with the end point of vector $\mathbf{a}$. The vector from the start point of $\mathbf{a}$ to the end point of $\mathbf{b}$ is $\mathbf{a} + \mathbf{b}$.
 - **Scalar Multiplication**: Scaling the magnitude of vector $\mathbf{a}$ by a real number $k$ yields $k\mathbf{a}$. If $k < 0$, its direction is reversed; if $k = 0$, it becomes the zero vector $\mathbf{0}$.
@@ -30,26 +33,21 @@ Importantly, performing addition or scalar multiplication on vectors always yiel
 Properties of vector addition:
 
 ![](images/_page_35_Diagram_46.jpeg)
-Commutative Law:
-$\mathbf{a} + \mathbf{b} = \mathbf{b} + \mathbf{a}$
+*Diagram Translation:* Commutative Law (交換則): $\mathbf{a} + \mathbf{b} = \mathbf{b} + \mathbf{a}$
 
 ![](images/_page_35_Diagram_48.jpeg)
-Associative Law:
-$(\mathbf{a} + \mathbf{b}) + \mathbf{c} = \mathbf{a} + (\mathbf{b} + \mathbf{c})$
+*Diagram Translation:* Associative Law (結合則): $(\mathbf{a} + \mathbf{b}) + \mathbf{c} = \mathbf{a} + (\mathbf{b} + \mathbf{c})$
 
 ![](images/_page_35_Diagram_50.jpeg)
-Existence of Zero Vector:
-$\mathbf{a} + \mathbf{0} = \mathbf{a}$
+*Diagram Translation:* Zero Vector Existence (零ベクトルの存在): $\mathbf{a} + \mathbf{0} = \mathbf{a}$
 
 ![](images/_page_35_Diagram_52.jpeg)
-Existence of Inverse Vector:
-$\mathbf{a} + (-\mathbf{a}) = \mathbf{0}$
+*Diagram Translation:* Additive Inverse Existence (逆ベクトルの存在): $\mathbf{a} + (-\mathbf{a}) = \mathbf{0}$
 
 Properties of scalar multiplication:
 
 ![](images/_page_35_Diagram_59.jpeg)
-Distributive Law:
-$k(\mathbf{a} + \mathbf{b}) = k\mathbf{a} + k\mathbf{b}$
+*Diagram Translation:* Distributive Law (分配則): $k(\mathbf{a} + \mathbf{b}) = k\mathbf{a} + k\mathbf{b}$
 
 ● **Axioms of Geometric Vector Addition & Scalar Multiplication**:
 - (i) $\mathbf{a} + \mathbf{b} = \mathbf{b} + \mathbf{a}$ (Commutativity)
@@ -70,12 +68,16 @@ is called a **linear combination** of the vectors with coefficients $(k_1, k_2, 
 Consider 3D space as an example. Two vectors $\mathbf{a}_1, \mathbf{a}_2$ scaled by $k_1, k_2$ form a linear combination $k_1 \mathbf{a}_1 + k_2 \mathbf{a}_2$ lying on the plane spanned by $\mathbf{a}_1, \mathbf{a}_2$.
 
 ![](images/_page_35_Diagram_69.jpeg)
+*Diagram Translation:* Plane spanned by vectors $\mathbf{a}_1, \mathbf{a}_2$ (張る平面).
 
 Varying $k_1, k_2$ continuously traces out every point on that plane. We say the vectors $\mathbf{a}_1, \mathbf{a}_2$ **span** the plane.
 
 Adding a third vector $\mathbf{a}_3$:
 
 ![](images/_page_36_Picture_20.jpeg)
+*Diagram Translation (Coplanar vs. Non-Coplanar / 一次従属と一次独立):*
+- **Left**: $\mathbf{a}_3$ is coplanar with $\mathbf{a}_1, \mathbf{a}_2$ (同一平面上 $\to$ Linearly Dependent).
+- **Right**: $\mathbf{a}_3$ is non-coplanar (非同一平面 $\to$ Linearly Independent).
 
 If $\mathbf{a}_3$ lies on the plane spanned by $\mathbf{a}_1, \mathbf{a}_2$ (left image), it can be expressed as $\mathbf{a}_3 = k_1 \mathbf{a}_1 + k_2 \mathbf{a}_2$, so the three vectors span only that same plane.
 If $\mathbf{a}_3$ does not lie on the plane (right image), it cannot be written as a linear combination of $\mathbf{a}_1, \mathbf{a}_2$, so the three vectors span the entire 3D space.
@@ -146,16 +148,19 @@ $$\mathbf{a} \cdot \mathbf{b} = \|\mathbf{a}\| \|\mathbf{b}\| \cos \theta \quad 
 where $\theta$ is the angle between $\mathbf{a}$ and $\mathbf{b}$. Two non-zero vectors are orthogonal iff $\mathbf{a} \cdot \mathbf{b} = 0$.
 
 ![](images/_page_38_Picture_51.jpeg)
+*Diagram Translation:* Angle $\theta$ between vectors $\mathbf{a}$ and $\mathbf{b}$ (なす角).
 
 ● **Equation of a Tangent Line to a Circle**:
 For a circle centered at origin $O$ with radius $r_0$, the tangent line at $P_0(\mathbf{r}_0)$ satisfies $(\mathbf{r} - \mathbf{r}_0) \cdot \mathbf{r}_0 = 0 \implies \mathbf{r}_0 \cdot \mathbf{r} = r_0^2$. In Cartesian coordinates: $x_0 x + y_0 y = r_0^2$.
 
 ![](images/_page_39_Picture_49.jpeg)
+*Diagram Translation:* Tangent line to circle at $P_0(x_0, y_0)$ (円の接線).
 
 ● **Equation of a Tangent Plane to a Sphere**:
 Extending to 3D sphere: $x_0 x + y_0 y + z_0 z = r_0^2$.
 
 ![](images/_page_39_Picture_60.jpeg)
+*Diagram Translation:* Tangent plane to sphere at $P_0(x_0, y_0, z_0)$ (球面の接平面).
 
 ### [3-4] Abstract Vector Spaces and Examples
 
@@ -189,11 +194,15 @@ Key vector identities:
 #### [3-5-3] Geometric Meaning
 
 ![](images/_page_42_Figure_26.jpeg)
+*Diagram Translation (Cross Product Properties / 外積):*
+- Magnitude $\|\mathbf{a} \times \mathbf{b}\| = \|\mathbf{a}\| \|\mathbf{b}\| \sin \theta$ equals area of parallelogram (平行四辺形の面積).
+- Direction is perpendicular to both $\mathbf{a}$ and $\mathbf{b}$ following the right-hand rule (右ねじの向き).
 
 - **Magnitude**: $\|\mathbf{a} \times \mathbf{b}\| = \|\mathbf{a}\| \|\mathbf{b}\| \sin \theta$, equal to the area of the parallelogram spanned by $\mathbf{a}$ and $\mathbf{b}$.
 - **Direction**: Orthogonal to both $\mathbf{a}$ and $\mathbf{b}$, obeying the right-hand rule.
 
 ![](images/_page_42_Figure_36.jpeg)
+*Diagram Translation:* Scalar triple product $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ equals signed volume of parallelepiped (平行六面体の体積).
 
 - **Scalar Triple Product**: $\mathbf{a} \cdot (\mathbf{b} \times \mathbf{c})$ equals the signed volume of the parallelepiped spanned by $\mathbf{a}, \mathbf{b}, \mathbf{c}$.
 

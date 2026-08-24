@@ -3,6 +3,7 @@
 Linear Algebra and Representation of Rotations
 
 ![](images/_page_0_Picture_3.jpeg)
+*Image Note: Cover graphic titled "Basic Linear Algebra Course: Linear Algebra & Representation of Rotations" (基礎線形代数講座 - 線形代数・回転の表現).*
 
 ![](images/_page_1_Picture_0.jpeg)
 
@@ -23,6 +24,12 @@ For this "relearning" course, the structure has been designed to allow learners 
 (My apologies if this actually makes it harder to understand! :P) We aimed for clear introductions and derivations, concise proofs, and moved longer proofs to the appendix to maintain the flow of discussion. On the other hand, due to page constraints, examples and practice exercises are limited. Readers are encouraged to find additional practice problems online or elsewhere to deepen their understanding.
 
 ![](images/_page_3_Diagram_7.jpeg)
+*Diagram Translation (Overview of Linear Algebra / 線形代数の全貌):*
+- **Sets & Logic** (集合・論理) $\to$ **Numbers** (数) $\to$ **Mappings & Functions** (写像・関数)
+- **Vectors** (ベクトル) $\to$ **Systems of Linear Equations** (連立一次方程式) $\to$ **Matrices** (行列)
+- **Determinants** (行列式) $\to$ **Linear Transformations** (線形変換)
+- **Eigenvalues & Diagonalization** (固有値・対角化) $\to$ **Vector Spaces** (線形空間) $\to$ **Metrics / Inner Products** (計量)
+- **Representation of Rotations** (回転の表現)
 
 The course consists of 8 lectures (8 chapters) divided into 3 major parts. Topics marked with a `[▼]` icon represent slightly advanced content; feel free to skip them on your first reading. Topics with matching tags like `[▼A]` are interrelated, so please use them as references.
 
