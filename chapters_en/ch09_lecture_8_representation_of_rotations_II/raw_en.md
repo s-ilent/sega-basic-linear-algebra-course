@@ -37,9 +37,9 @@ Hamilton attempted to extend complex numbers by introducing two independent imag
 ![](images/_page_127_Diagram_29.jpeg)
 ![](images/_page_127_Diagram_31.jpeg)
 *Diagram Translation:*
-- $1-i$ plane rotation ($1-i\text{ 平面}$)
-- $1-j$ plane rotation ($1-j\text{ 平面}$)
-- Attempted $j-ij$ / $i-j$ plane rotations ($j-ij\text{ 平面}$)
+- $1-i$ plane rotation
+- $1-j$ plane rotation
+- Attempted $j-ij$ / $i-j$ plane rotations
 
 However, a system with 3 components ($1, i, j$) failed because the product $i \times j$ could not be consistently closed without producing contradictions. (Later, mathematicians proved that a 3D division algebra extending complex numbers is impossible.)
 
@@ -72,11 +72,11 @@ k i &= j, & i k &= -j
 ![](images/_page_130_Diagram_35.jpeg)
 ![](images/_page_130_Diagram_36.jpeg)
 *Diagram Translation:*
-- **Left Multiplication** (左から掛けた場合): $1-i$ plane rotates forward; $j-k$ plane rotates forward.
-- **Right Multiplication** (右から掛けた場合): $1-i$ plane rotates forward; $j-k$ plane rotates in reverse (逆向き).
-- **Sandwich Product $q p \bar{q}$** (左から $i$、右から $-i$):
-  - $1-i$ plane: No rotation (回転なし, cancels out).
-  - $j-k$ plane: Double rotation (2倍回転, $2\theta$).
+- **Left Multiplication**: $1-i$ plane rotates forward; $j-k$ plane rotates forward.
+- **Right Multiplication**: $1-i$ plane rotates forward; $j-k$ plane rotates in reverse.
+- **Sandwich Product $q p \bar{q}$** (Left by $i$, Right by $-i$):
+  - $1-i$ plane: No rotation (cancels out).
+  - $j-k$ plane: Double rotation ($2\theta$).
 
 Hamilton discovered that multiplying a pure imaginary 3D vector $p = i x + j y + k z$ on both sides by a unit quaternion $q$ and its conjugate $\bar{q}$:
 
@@ -133,9 +133,9 @@ where $\mathbf{u} = u_x i + u_y j + u_z k$ is a 3D unit vector ($\|\mathbf{u}\| 
 
 ![](images/_page_135_Figure_7.jpeg)
 ![](images/_page_135_Figure_9.jpeg)
-*Diagram Translation (Hyperspherical Coordinates / 4次元極座標):*
-- **Left Diagram**: 3D spherical coordinates for 2D sphere $S^2$ (2次元球面).
-- **Right Diagram**: 4D hyperspherical coordinates for 3D unit sphere $S^3$ (3次元球面) with polar angle $\psi$.
+*Diagram Translation (Hyperspherical Coordinates):*
+- **Left Diagram**: 3D spherical coordinates for 2D sphere $S^2$.
+- **Right Diagram**: 4D hyperspherical coordinates for 3D unit sphere $S^3$ with polar angle $\psi$.
 
 ### [8-3-5] 4D Inner Product
 
@@ -189,10 +189,10 @@ The mapping from unit quaternions $S^3$ to $3\text{D}$ rotation matrices $SO(3)$
 ![](images/_page_140_Picture_11.jpeg)
 ![](images/_page_141_Picture_10.jpeg)
 ![](images/_page_142_Picture_18.jpeg)
-*Diagram Translation (Double Covering $S^3 \to SO(3)$ / 二重被覆):*
-- **Northern Hemisphere** (北半球): $q_0 > 0$
-- **Southern Hemisphere** (南半球): $q_0 < 0$
-- **Equator** (赤道面): $q_0 = 0$
+*Diagram Translation (Double Covering $S^3 \to SO(3)$):*
+- **Northern Hemisphere**: $q_0 > 0$
+- **Southern Hemisphere**: $q_0 < 0$
+- **Equator**: $q_0 = 0$
 - Antipodal points $+q$ and $-q$ represent the same 3D rotation.
 
 ### [8-4-5] Spherical Linear Interpolation (Slerp)
@@ -207,7 +207,7 @@ where $t \in [0, 1]$ is the interpolation parameter.
 ![](images/_page_142_Picture_25.jpeg)
 ![](images/_page_143_Figure_17.jpeg)
 ![](images/_page_143_Picture_23.jpeg)
-*Diagram Translation (Spherical Linear Interpolation / 球面線形補間):*
+*Diagram Translation (Spherical Linear Interpolation):*
 - Slerp interpolates along arc between unit quaternions $p$ and $q$ on $S^3$.
 
 Algebraic form of Slerp:

@@ -115,7 +115,7 @@ Key properties:
 4. The column vectors (and row vectors) of $R$ form an **orthonormal basis**.
 
 ![](images/_page_82_Figure_31.jpeg)
-*Diagram Translation (Proper Rotation vs. Reflection / 回転と鏡映):*
+*Diagram Translation (Proper Rotation vs. Reflection):*
 - $e'_2(R)$: Proper rotation (right-handed frame, $\det R = +1$).
 - $e'_2(L)$: Reflection across $x_1$-axis (left-handed frame, $\det R = -1$).
 
@@ -183,7 +183,7 @@ Note: $\det(F_C) = \det(F_B)$, proving that the determinant is an intrinsic prop
 
 ![](images/_page_87_Diagram_41.jpeg)
 ![](images/_page_87_Figure_42.jpeg)
-*Diagram Translation (Active vs Passive Transformation / アクティブ変換とパッシブ変換):*
+*Diagram Translation (Active vs Passive Transformation):*
 - **Active Transformation**: Rotates physical vector $\mathbf{x} \to \mathbf{x}'$ within a fixed frame ($\mathbf{x}'_B = F_B \mathbf{x}_B$).
 - **Passive Transformation**: Rotates coordinate frame $\mathbf{b}_1, \mathbf{b}_2 \to \mathbf{b}'_1, \mathbf{b}'_2$ while vector $\mathbf{x}$ remains fixed ($\mathbf{x}_{B'} = F_B \mathbf{x}_B$).
 

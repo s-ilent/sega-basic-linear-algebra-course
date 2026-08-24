@@ -91,9 +91,9 @@ Basic properties of exponential functions derived from exponent laws:
 The domain is all real numbers $\mathbb{R}$, and the range is all positive real numbers $\mathbb{R}^+$. The graph below shows examples of $y = a^x$.
 
 ![](images/_page_18_Figure_42.jpeg)
-*Diagram Translation (Exponential Function Graphs $y = a^x$ / 指数関数):*
-- **Monotonically Increasing** (単調増加関数): $1 < a$ (e.g., $y = 2^x$)
-- **Monotonically Decreasing** (単調減少関数): $0 < a < 1$ (e.g., $y = (1/2)^x$)
+*Diagram Translation (Exponential Function Graphs $y = a^x$):*
+- **Monotonically Increasing**: $1 < a$ (e.g., $y = 2^x$)
+- **Monotonically Decreasing**: $0 < a < 1$ (e.g., $y = (1/2)^x$)
 
 #### [2-2-2] Definition and Properties of Logarithmic Functions
 
@@ -102,10 +102,10 @@ Since the exponential function $a^x$ spans all positive real numbers as its rang
 This unique $x$ is called the **logarithm** of $Y$ to the base $a$, written as $x = \log_a Y$. Here $Y$ is called the **argument** (or antilogarithm).
 
 ![](images/_page_18_Figure_46.jpeg)
-*Diagram Translation (Definition of Logarithm / 対数の定義):*
-- **Base** (底): $a$
-- **Argument / Antilogarithm** (真数): $Y$
-- **Logarithm** (対数): $x = \log_a Y$
+*Diagram Translation (Definition of Logarithm):*
+- **Base**: $a$
+- **Argument / Antilogarithm**: $Y$
+- **Logarithm**: $x = \log_a Y$
 
 By definition, logarithms satisfy properties corresponding to the exponent laws. For $a, Y, Z \in \mathbb{R}$ ($a > 0, a \neq 1, Y, Z > 0$):
 
@@ -139,12 +139,12 @@ Logarithmic functions have the following properties for base $a \in \mathbb{R}$ 
 - When $x = 1$, $\log_a 1 = 0$.
 
 ![](images/_page_19_Figure_31.jpeg)
-*Diagram Translation (Exponential & Logarithm for $0 < a < 1$ / 逆関数の関係):*
-- Inverse function relationship shown by $y = x$ line symmetry (逆関数).
+*Diagram Translation (Exponential & Logarithm for $0 < a < 1$):*
+- Inverse function relationship shown by $y = x$ line symmetry.
 
 ![](images/_page_19_Figure_32.jpeg)
-*Diagram Translation (Exponential & Logarithm for $1 < a$ / 逆関数の関係):*
-- Inverse function relationship shown by $y = x$ line symmetry (逆関数).
+*Diagram Translation (Exponential & Logarithm for $1 < a$):*
+- Inverse function relationship shown by $y = x$ line symmetry.
 
 The graphs above illustrate $y = \log_a x$ and $y = a^x$ for $0 < a < 1$ and $1 < a$. They are symmetric with respect to the line $y = x$, visually confirming their inverse relationship.
 
@@ -165,7 +165,7 @@ $$e = 2.71828182846 \dots \quad (2-2-2)$$
 Here, equation (2-2-1) represents the **limit** of $\left(1 + \frac{1}{n}\right)^n$ as the positive integer $n$ grows arbitrarily large. The graph below illustrates how $\left(1 + \frac{1}{n}\right)^n$ converges to $e$ for $n$ from $1$ to $100$.
 
 ![](images/_page_20_Figure_30.jpeg)
-*Diagram Translation (Convergence to Napier's Constant $e$ / ネイピア数):*
+*Diagram Translation (Convergence to Napier's Constant $e$):*
 - Convergence curve of $(1 + 1/n)^n \to e \approx 2.71828$.
 
 Logarithms with base $e$ are called **natural logarithms**, usually written as $\log_e x = \ln x$. The term "exponential function" usually defaults to $e^x$, also written as $\exp(x)$ or called the natural exponential.
@@ -183,19 +183,19 @@ Exponential functions play a vital role in calculus and differential equations (
 Consider a point $(x, y)$ on a unit circle ($r = 1$) centered at the origin. Let $\theta$ be the angle (in radians) formed by the line connecting the point to the origin and the positive $x$-axis, measured counterclockwise. Angle values naturally extend beyond $\pm \pi, \pm 2\pi$.
 
 We define:
-- $\sin \theta$ (sine / 正弦): $\sin \theta = y$
-- $\cos \theta$ (cosine / 余弦): $\cos \theta = x$
+- $\sin \theta$ (sine): $\sin \theta = y$
+- $\cos \theta$ (cosine): $\cos \theta = x$
 
 and for $x \neq 0$:
-- $\tan \theta$ (tangent / 正接): $\tan \theta = y/x$
+- $\tan \theta$ (tangent): $\tan \theta = y/x$
 
 These are the **trigonometric functions**.
 
 ![](images/_page_21_Figure_42.jpeg)
-*Diagram Translation (Trigonometric Definitions on Unit Circle / 単位円):*
-- **Sine (正弦)**: $y = \sin \theta$
-- **Cosine (余弦)**: $x = \cos \theta$
-- **Tangent (正接)**: $y/x = \tan \theta$
+*Diagram Translation (Trigonometric Definitions on Unit Circle):*
+- **Sine**: $y = \sin \theta$
+- **Cosine**: $x = \cos \theta$
+- **Tangent**: $y/x = \tan \theta$
 
 By definition, $\sin \theta$ and $\cos \theta$ are periodic with period $2\pi$, while $\tan \theta$ has period $\pi$ ($n \in \mathbb{Z}$):
 
@@ -276,7 +276,7 @@ z_1 z_2 &= (\cos \alpha + i \sin \alpha)(\cos \beta + i \sin \beta) \\
 Multiplying unit complex numbers adds their argument angles. Geometrically, multiplying by $\cos \alpha + i \sin \alpha$ represents a counterclockwise rotation by angle $\alpha$ on the complex plane.
 
 ![](images/_page_23_Figure_23.jpeg)
-*Diagram Translation (Rotation on Complex Plane / 複素平面):*
+*Diagram Translation (Rotation on Complex Plane):*
 - Left: Product $z_1 z_2$ adds argument angles $\alpha + \beta$.
 - Right: Powers $z^n$ rotate by $n\theta$ (De Moivre's theorem).
 
@@ -365,7 +365,7 @@ $$\begin{cases}
 Expanding $(a+b)^n$ is called a **binomial expansion**. Pascal's triangle gives the coefficients:
 
 ![](images/_page_27_Diagram_25.jpeg)
-*Diagram Translation (Pascal's Triangle / パスカルの三角形):*
+*Diagram Translation (Pascal's Triangle):*
 - Coefficients of $(a+b)^n$ for $n = 0, 1, 2, 3, 4$.
 
 In general:
@@ -392,7 +392,7 @@ Key properties:
 Consider a sector $OAB$ of a unit circle with angle $0 < \theta < 1$:
 
 ![](images/_page_29_Diagram_41.jpeg)
-*Diagram Translation (Geometric Squeeze Theorem Setup / 扇形 OAB):*
+*Diagram Translation (Geometric Squeeze Theorem Setup):*
 - Sector $OAB$ radius $1$, $|\overline{BD}| = \sin \theta$, $|\overline{CA}| = \tan \theta$.
 
 Area of $\triangle OAB = \frac{1}{2} \sin \theta$, sector $OAB = \frac{1}{2} \theta$, and $\triangle OAC = \frac{1}{2} \tan \theta$.
